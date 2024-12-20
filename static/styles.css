@@ -8,6 +8,21 @@ body {
     justify-content: center;
     align-items: center;
     height: 100vh;
+    overflow: hidden;
+    position: relative;
+}
+
+.background-quotes {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    z-index: -1;
+    font-size: 1.5rem;
+    color: #888;
+    font-style: italic;
+    font-family: 'Georgia', serif;
 }
 
 .container {
